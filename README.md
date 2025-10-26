@@ -51,7 +51,6 @@ Setiap modul memiliki sistem login terpisah dan mendukung dua peran (role): **Ma
 - Perencanaan produksi (`production-plans`)
 - Approval & progress monitoring
 - Export laporan produksi
-- Dashboard statistik PPIC
 
 ### 🔹 Modul Produksi
 - Login dan manajemen akun (Manager & Staff)
@@ -59,7 +58,7 @@ Setiap modul memiliki sistem login terpisah dan mendukung dua peran (role): **Ma
 - Update progress produksi
 - Quality Control (QC)
 - Manajemen logistik & stok barang
-- Export laporan produksi harian
+- Export laporan produksi
 
 ---
 
@@ -94,5 +93,12 @@ npm install
 # 5 Jalankan backend dan frontend bersamaan
 # (gunakan tmux / & untuk menjalankan paralel)
 php artisan serve & npm run dev
+
+# 6 Buka browser
+# Module PPIC
+http://127.0.0.1:8000/ppic/login 
+# Module Produksi
+http://127.0.0.1:8000/produksi/login 
+
 
 
