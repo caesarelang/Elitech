@@ -1,8 +1,8 @@
 # 🏭 Elitech Production Management System
 
 Sistem ini merupakan aplikasi **manajemen produksi terintegrasi** yang dibagi menjadi dua modul utama:
-- **PPIC (Production Planning and Inventory Control)**
-- **Produksi (Production Execution)**
+- **PPIC (Production Planning)**
+- **Produksi (Production Execution and Inventory Control)**
 
 Setiap modul memiliki sistem login terpisah dan mendukung dua peran (role): **Manager** dan **Staff**.
 
